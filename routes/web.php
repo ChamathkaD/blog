@@ -41,6 +41,17 @@ Route::get('profile', function () {
     return view('profile');
 })->name('profile');
 
+
+Route::get('content', function () {
+    return view('content');
+})->name('content');
+
+
+
+Route::get('category', function () {
+    return view('category');
+})->name('category');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

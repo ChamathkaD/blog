@@ -1,7 +1,95 @@
 @extends('layouts.app')
 
+@push('css')
+
+
+    <link rel="stylesheet" type="text/css" href="{{asset('css/nunito-font.css')}}">
+
+    <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
+
+@endpush
+
 @section('content')
-<div class="container">
+
+    <div class="page-content">
+        <div class="form-v6-content mt-5">
+            <div class="form-left">
+                <img src="{{ asset('img/form-v6.jpg') }}" alt="form">
+            </div>
+            <form class="form-detail" action="{{ route('register') }}" method="post">
+                @csrf
+                <h2>{{ __('Register') }}</h2>
+                <div class="form-row">
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="input-text @error('name') is-invalid @enderror"
+                        placeholder="Your Name"
+                        value="{{ old('name') }}"
+                        autocomplete="Name"
+                        autofocus
+                        required>
+                    @error('name')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
+
+                </div>
+                <div class="form-row">
+                    <input type="email"
+                           name="email"
+                           id="email"
+                           class="input-text @error('email') is-invalid @enderror"
+                           placeholder="Email Address"
+                           value="{{ old('email') }}"
+                           autocomplete="email"
+                           required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+
+                    @error('email')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
+
+                </div>
+
+                <div class="form-row">
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="input-text @error('password') is-invalid @enderror"
+                        placeholder="Password"
+                        autocomplete="new-password"
+                        required>
+                    @error('password')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
+                </div>
+
+                <div class="form-row">
+                    <input
+                        type="password"
+                        name="password_confirmation"
+                        id="password-confirm"
+                        class="input-text"
+                        placeholder="Comfirm Password"
+                        autocomplete="new-password">
+                        required>
+                </div>
+                <div class="form-row-last">
+                    <input type="submit" name="register" class="register" value="{{ __('Register') }}">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+{{--<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -73,5 +161,5 @@
             </div>
         </div>
     </div>
-</div>
+</div>--}}
 @endsection
