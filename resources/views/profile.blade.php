@@ -5,11 +5,20 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3"></div>
+            <div class="col-4 d-flex justify-content-center">
 
-            <div class="col-4">
 
-                <h3>My Profile</h3>
+            </div>
+
+            <div class="col-8">
+
+
+
+                <div class="justify-content-around">
+                    <h3>Basic info</h3>
+                    <a href="#" class="btn btn-outline-primary">Cancel</a>
+                    <a href="#" class="btn btn-primary">Save</a>
+                </div>
                 <hr>
 
                 <form action="#" method="#">
@@ -65,16 +74,25 @@
                                     placeholder="Enter Your Phone Number">
                             </div>
 
-                            <button class="btn btn-success">
+                            <button class="btn btn-primary">
                                 <i class="far fa-save mr-2"></i>
 
                                 Update Profile</button>
                         </div>
 
-                        <div class="col-4">
-                            <div class="col-3">
-                                <img src="{{ asset('img/form-v6.jpg') }}" alt="comment pro_pic" class="" style="width: 150px; ">
-                            </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <div> <img src="{{ asset('img/form-v6.jpg') }}" alt="comment pro_pic" class="rounded-circle" style="width: 150px; height: 150px"></div>
+                                <div>
+                                    <h4 >Chamathka Dissa</h4>
+                                    <small>
+                                        <i class="fas fa-envelope mr2"></i>
+                                        chamathka.dissa@gmail.com
+                                    </small>
+                                    <a href="#" class="btn btn-primary">Update Profile</a>
+
+                                </div>
+
+
                         </div>
 
                     </div>

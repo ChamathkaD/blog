@@ -48,138 +48,274 @@
                 Latest Posts
             </div>
 
+
+
+
+
+
             <div class="row">
+
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-artem-beliaikin-1230665.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
 
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
                             </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-1.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
 
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
                             </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-artem-beliaikin-1230665.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
 
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
                             </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+                </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
+                            </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
+                            </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar mr-2"></i>
+                                        December 10, 2017
+                                    </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-comment mr-2"></i>
+                                        50
+                                    </small>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-user mr-2"></i>
+                                        Chamathka
+                                    </small>
+                                </p>
+
+                            </div>
+
+                            <h5 class="card-title">
+                                Card Title
+
+                            </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <span class="badge float-end" style="background-color: #0dcaf0">Category</span>
+
+                        </div>
+                    </div>
+                </div>
+
+
 
 
 
 
             </div>
 
-
-
-            <div class="row">
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
-
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-artem-beliaikin-2490930.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
-
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="{{ asset('img/pexels-visionpic-net-2166553.jpg') }}" alt="" class="card-img-top" width="100%" height="225">
-
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    {{--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>--}}
-                                </div>
-                                <small class="text-muted">
-                                    <i class="far fa-clock mr-1"></i>
-                                    9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                </div>
-
         </div>
     </div>
 
 
-                <br>
+
 
 
 

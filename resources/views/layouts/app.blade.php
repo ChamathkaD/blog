@@ -17,7 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+ <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<!--    <link href="{{ asset('bootstrap/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css') }}" rel="stylesheet">-->
 
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css')}}">
 
@@ -49,5 +50,9 @@
     </div>
 
 @stack('js')
+{{--    <script src="{{ asset(' bootstrap/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js') }}" defer></script>--}}
+{{--    <script src="{{ asset(' js/jquery.js') }}" defer></script>--}}
+
+
 </body>
 </html>

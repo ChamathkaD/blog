@@ -19,24 +19,45 @@
             <form class="form-detail" action="{{ route('register') }}" method="post">
                 @csrf
                 <h2>{{ __('Register') }}</h2>
+
                 <div class="form-row">
                     <input
                         type="text"
-                        name="name"
-                        id="name"
-                        class="input-text @error('name') is-invalid @enderror"
-                        placeholder="Your Name"
-                        value="{{ old('name') }}"
-                        autocomplete="Name"
+                        name="firstname"
+                        id="firstname"
+                        class="input-text @error('firstname') is-invalid @enderror"
+                        placeholder="Your First Name"
+                        value="{{ old('firstname') }}"
+                        autocomplete="First Name"
                         autofocus
                         required>
-                    @error('name')
+                    @error('firstname')
                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                     @enderror
 
                 </div>
+
+                <div class="form-row">
+                    <input
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                        class="input-text @error('lastname') is-invalid @enderror"
+                        placeholder="Your Last Name"
+                        value="{{ old('lastname') }}"
+                        autocomplete="Last Name"
+                        autofocus
+                        required>
+                    @error('lastname')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
+
+                </div>
+
                 <div class="form-row">
                     <input type="email"
                            name="email"
