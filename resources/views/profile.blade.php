@@ -81,19 +81,26 @@
                         </div>
 
                         <div class="col-4 d-flex justify-content-center">
-                            <div> <img src="{{ asset('img/form-v6.jpg') }}" alt="comment pro_pic" class="rounded-circle" style="width: 150px; height: 150px"></div>
-                                <div>
+                            <div class=""> <img src="{{ asset('img/form-v6.jpg') }}" alt="comment pro_pic" class="rounded-circle" style="width: 150px; height: 150px">
+
+                                <div class="py-4">
                                     <h4 >Chamathka Dissa</h4>
                                     <small>
                                         <i class="fas fa-envelope mr2"></i>
                                         chamathka.dissa@gmail.com
                                     </small>
-                                    <a href="#" class="btn btn-primary">Update Profile</a>
+
 
                                 </div>
+                                <a href="#" class="btn btn-primary">Update Profile</a>
+
+                            </div>
 
 
                         </div>
+
+
+
 
                     </div>
 
