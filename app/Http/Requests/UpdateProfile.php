@@ -35,7 +35,8 @@ class UpdateProfile extends FormRequest
                 Rule::unique('users', 'email')->ignore(Auth::id()),
 
                 ],
-            'bio' => ['required', 'string']
+            'bio' => ['required', 'string'],
+           /* 'image' => ['mines:jpeg,gif,png,svg,ico'],*/
         ];
     }
 
@@ -45,4 +46,11 @@ class UpdateProfile extends FormRequest
          'firstname.required' => 'please enter your name',
        ];
     }
+    /*public function attributes()
+    {
+        return [
+            'image' => 'User Image',
+
+        ];
+    }*/
 }
