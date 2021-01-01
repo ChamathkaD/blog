@@ -26,8 +26,8 @@ class UpdateProfile extends FormRequest
     public function rules()
     {
         return [
-            'firstname' => ['required', 'string', 'max:50'],
-            'lastname' => ['required', 'string', 'max:50'],
+            'firstname' => ['required', 'string','alpha', 'max:50'],
+            'lastname' => ['required', 'string', 'alpha', 'max:50'],
             'email' => ['required',
                 'string',
                 'email',
@@ -36,7 +36,7 @@ class UpdateProfile extends FormRequest
 
                 ],
             'bio' => ['required', 'string'],
-           /* 'image' => ['mines:jpeg,gif,png,svg,ico'],*/
+           'image' => ['mimes:jpeg,gif,png,svg,ico,jpg'],
         ];
     }
 
