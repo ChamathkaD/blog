@@ -17,6 +17,16 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
 
+            @if(session()->has('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    {!! session()->get('success') !!}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+
             <div class="limiter">
                 <div class="container-login100">
                     <div class="wrap-login100">

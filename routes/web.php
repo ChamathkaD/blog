@@ -41,7 +41,39 @@ Route::get('profile', function () {
     return view('profile');
 })->name('profile');
 
+
+Route::get('categories/create', function () {
+    return view('categories.create');
+})->name('categories.create');
+
+
+Route::get('categories/edit', function () {
+    return view('categories.edit');
+})->name('categories.edit');
+
+
+
+Route::get('categories/index', function () {
+    return view('categories.index');
+})->name('categories.index');
+
+
+Route::get('posts/create', function () {
+    return view('posts.create');
+})->name('posts.create');
+
+Route::delete('profile/delete','UserController@destroyAccount')->name('profile.destroy');
+
+
+
+
+/*Route::middleware('auth')->group(function (){
+
+});*/
+
 Route::post('profile','UserController@updateProfile')->name('profile.update');
+
+Route::post('password','UserController@updatePassword')->name('update.password');
 
 
 Route::get('content', function () {
@@ -50,9 +82,9 @@ Route::get('content', function () {
 
 
 
-Route::get('category', function () {
-    return view('category');
-})->name('category');
+Route::get('categories', function () {
+    return view('categories');
+})->name('categories');
 
 Auth::routes();
 

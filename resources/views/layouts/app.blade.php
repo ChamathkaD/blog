@@ -7,7 +7,10 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>
+
+
+        {{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -19,6 +22,21 @@
     <!-- Styles -->
  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <!--    <link href="{{ asset('bootstrap/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css') }}" rel="stylesheet">-->
+
+    <style>
+
+      .form-control:focus {
+          border-color: #38c172;
+          box-shadow: 0 0 0 3px rgba(56, 193, 114, 0.25);
+      }
+
+      /* changed file input box-shadow color */
+      .custom-file-input:focus ~ .custom-file-label {
+          border-color: #38c172;
+          box-shadow: 0 0 0 3px rgba(56, 193, 114, 0.25);
+      }
+
+    </style>
 
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css')}}">
 
@@ -51,7 +69,15 @@
 
 @stack('js')
 {{--    <script src="{{ asset(' bootstrap/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js') }}" defer></script>--}}
-{{--    <script src="{{ asset(' js/jquery.js') }}" defer></script>--}}
+<script src="{{ asset('js/jquery.js') }}"></script>
+
+    <script src="{{ asset('js/bs-custom-file-input.min.js') }}"></script>
+
+<script>
+    $(document).ready(function () {
+        bsCustomFileInput.init()
+    })
+</script>
 
 
 </body>
